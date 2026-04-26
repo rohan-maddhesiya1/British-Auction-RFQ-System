@@ -115,6 +115,3 @@ npm run dev
 2. **Bidding**: Only `supplier` roles can place bids. Buyers create the RFQs.
 3. **Closing Logic**: The `forcedCloseAt` constraint is enforced at the database schema level. The auction closing job is idempotent to prevent duplicate execution in case of server restarts or job retries.
 
-## 📜 License
-
-This project is licensed under the MIT License.
